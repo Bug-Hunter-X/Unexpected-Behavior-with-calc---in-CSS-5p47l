@@ -1,0 +1,12 @@
+/* Corrected CSS using consistent units and proper spacing */
+#container {
+  width: calc(50% + 10px); /* Correct: consistent units */
+  height: calc(200px + 10%); /* Correct: Percentage and pixels are reasonably compatible, though may not always be the best approach */
+  margin: calc(10px + 5%); /* Correct: consistent units */
+  background-color: lightblue;
+}
+#inner {
+  width: calc(50% - 20px); /* Correct spacing */
+  height: calc(100px * 2);/* Correct spacing */
+  background-color: lightcoral;
+}
